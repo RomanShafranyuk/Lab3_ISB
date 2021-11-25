@@ -6,12 +6,7 @@ from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
-path_encrypt_key = r"D:\\OIB\\symmetric.txt"
-path_open_key = r"D:\\OIB\\public.pem"
-path_close_key = r"D:\\OIB\\private.pem"
-path_text = r"D:\\OIB\\text.txt"
-path_text_en = r"D:\\OIB\\en_text.txt"
-path_text_ds = r"D:\\OIB\\text_res.txt"
+
 
 
 def generation_symmetric_key():
